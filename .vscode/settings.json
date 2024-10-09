@@ -1,0 +1,17 @@
+{
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "eeyore.yapf",
+    "editor.formatOnType": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "yapf.args": [
+    "--style",
+    "{based_on_style: google, column_limit: 100, indent_width: 4}"
+  ]
+}

@@ -5,6 +5,7 @@ def guess_accounting_subject(store_name, subjects):
             return subject
     return "その他"
 
+
 # 軽減税率の推測
 def guess_reduced_tax_rate(store_name, reduced_tax_stores):
     for store in reduced_tax_stores:
